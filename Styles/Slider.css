@@ -5,13 +5,12 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background-color: #f2f2f2;
 }
 
 .swiper-slide,
 .swiper-container,
 .hero .row {
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .hero .row img {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -142,6 +141,9 @@
 }
 
 @media (max-width: 567px) {
+  .hero {
+    margin-top: -22px;
+  }
   .hero .row .content {
     left: 20px;
   }
