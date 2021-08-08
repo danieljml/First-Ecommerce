@@ -21,6 +21,11 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- Swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- Carpet Styles -->
     <link rel="stylesheet" href="./Styles/NavigationBar.css" />
     <link rel="stylesheet" href="./Styles/Slider.css" />
@@ -50,13 +55,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav m-auto pt-1">
             <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="Index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="Products.html">Destacados</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Productos</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Compra</a>
@@ -75,6 +97,70 @@
       </div>
     </nav>
 
+    <div class="hero">
+      <div class="row">
+        <div class="swiper-container slider-1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Images/hero-1.png" alt="" srcset="" />
+              <div class="content">
+                <h1>
+                  Super market vegbox
+                  <br />
+                  start from <span>$9</span>
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, atque animi. Laboriosam atque dolore quae?
+                </p>
+                <a class="btn" href="">Shop Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/hero-2.png" alt="" srcset="" />
+              <div class="content">
+                <h1>
+                  First order
+                  <br />
+                  <span>20% off</span> at juice
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Totam, atque animi. Laboriosam atque dolore quae?
+                </p>
+                <a class="btn" href="">Shop Now</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide">
+                <img src="Images/hero-3.png" alt="" srcset="" />
+                <div class="content">
+                  <h1>
+                    Super market vegbox
+                    <br />
+                    start from <span>$9</span>
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam, atque animi. Laboriosam atque dolore quae?
+                  </p>
+                  <a class="btn" href="">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevrons-left"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevrons-right"></i>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -91,5 +177,9 @@
       src="https://kit.fontawesome.com/b6b1420091.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Carpet js -->
+    <script src="Js/Slider.js"></script>
   </body>
 </html>

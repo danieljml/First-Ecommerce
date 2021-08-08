@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+a {
+  text-decoration: none;
+}
+
 .navbar-toggler-icon {
   background-image: url("../Images/bx-menu-alt-right.svg");
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 .navbar {
@@ -22,10 +27,17 @@
   font-size: 1rem;
 }
 
-.navbar-brand:hover,
+.nav-link:focus,
 .nav-link:hover {
   color: #a3a847;
-  transition: 0.3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+.search-icon:hover,
+.cart-icon:hover {
+  color: #a3a847;
+  transition: 0.5s;
 }
 
 .search-icon,
@@ -34,11 +46,6 @@
   padding: 0;
   font-size: 1.25rem;
   margin: 0 1rem;
-}
-
-.search-icon:hover,
-.cart-icon:hover {
-  color: #a3a847;
 }
 
 @media screen and (min-width: 1024px) {
@@ -56,9 +63,6 @@
   }
   .navbar-toggler {
     padding: 0;
-  }
-  .navbar-brand {
-    font-size: 1.5rem;
   }
   .NavbarIcons {
     display: flex;
