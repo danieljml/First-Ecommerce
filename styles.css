@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background: #b6c867;
+}
+
+.navbar-brand .logo {
+  width: 7.5rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-family: "Roboto Slab", serif;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #a3a847;
+  transition: 0.3s;
+}
+
+.search-icon,
+.cart-icon {
+  color: #ffffff;
+  padding: 0;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+}
+
+.search-icon:hover,
+.cart-icon:hover {
+  color: #a3a847;
+}
+
+@media screen and (min-width: 1024px) {
+  .navigationBar {
+    margin: 0 12%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+  }
+  .navbar-toggler {
+    padding: 0;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .NavbarIcons {
+    display: flex;
+    justify-content: center;
+  }
+}
