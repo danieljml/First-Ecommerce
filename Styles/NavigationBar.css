@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 .navbar-toggler-icon {
   background-image: url("../Images/menu-alt-right-regular-24.png");
-  font-size: 2rem;
 }
 
 .navbar {
@@ -54,8 +53,9 @@
     align-items: center;
     border-radius: 0.8rem;
   }
-  .navbar-toggler {
+  .navbar-toggler icon {
     padding: 0;
+    font-size: 2rem;
   }
   .navbar-brand {
     font-size: 1.5rem;
