@@ -26,10 +26,14 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Carpet Styles -->
+    <link rel="stylesheet" href="Styles/Body.css" />
     <link rel="stylesheet" href="./Styles/NavigationBar.css" />
     <link rel="stylesheet" href="./Styles/Slider.css" />
     <link rel="stylesheet" href="Styles/Offerts.css" />
+    <link rel="stylesheet" href="Styles/Products.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg sticky-top">
@@ -108,7 +112,7 @@
                 <h1>
                   Todo tipo de frutas
                   <br />por tan solo
-                  <span>$9 </span>
+                  <span>$5 </span>
                 </h1>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -123,9 +127,9 @@
               <img src="./Images/hero-2.png" alt="hero image" />
               <div class="content">
                 <h1>
-                  Opten un <br />
-                  <span>20% </span>
-                  en Jugos
+                  Descuento del
+                  <br />
+                  <span>20% </span>en Jugos
                 </h1>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -169,57 +173,252 @@
         <h1 class="hero-text">Destacados</h1>
       </div>
       <div class="row services-images">
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="service-img">
-              <div class="circle">
+        <div data-aos="fade-up-right" class="col-lg-4 col-md-6">
+          <div
+            data-aos="fade-up-right"
+            data-aos-delay="400"
+            class="service-item"
+          >
+            <div
+              data-aos="fade-up-right"
+              data-aos-delay="700"
+              class="service-img"
+            >
+              <div data-aos="fade-up-right" data-aos-delay="800" class="circle">
                 Oferta <br />
                 6$
               </div>
-              <img src="./Images/promo1.jpg" alt="Image" />
+              <img
+                data-aos="fade-up-right"
+                data-aos-delay="900"
+                src="./Images/promo1.jpg"
+                alt="Image"
+              />
             </div>
-            <div class="textContainer">
-              <h3>JUGOS</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <a class="btn" href="">Shop Now</a>
+            <div
+              data-aos="fade-up-right"
+              data-aos-delay="800"
+              class="textContainer"
+            >
+              <h3 data-aos="fade-up-right" data-aos-delay="700">Jugos</h3>
+              <p data-aos="fade-up-right" data-aos-delay="800">
+                Lorem ipsum dolor sit amet.
+              </p>
+              <a
+                data-aos="fade-up-right"
+                data-aos-delay="900"
+                class="btn"
+                href=""
+                >Shop Now</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="service-img">
-              <div class="circle">
+        <div data-aos="fade-up" class="col-lg-4 col-md-6">
+          <div data-aos="fade-up" data-aos-delay="400" class="service-item">
+            <div data-aos="fade-up" data-aos-delay="700" class="service-img">
+              <div data-aos="fade-up" data-aos-delay="800" class="circle">
                 Oferta <br />
                 3$
               </div>
-              <img src="./Images/promo2.jpg" alt="Image" />
+              <img
+                data-aos="fade-up"
+                data-aos-delay="900"
+                src="./Images/promo2.jpg"
+                alt="Image"
+              />
             </div>
-            <div class="textContainer">
-              <h3>MANGOS</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div data-aos="fade-up" data-aos-delay="800" class="textContainer">
+              <h3 data-aos="fade-up" data-aos-delay="700">Mangos</h3>
+              <p data-aos="fade-up" data-aos-delay="800">
+                Lorem ipsum dolor sit amet.
+              </p>
 
-              <a class="btn" href="">Shop Now</a>
+              <a data-aos="fade-up" data-aos-delay="900" class="btn" href=""
+                >Shop Now</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="service-item">
-            <div class="service-img">
-              <div class="circle">
+        <div data-aos="fade-up-left" class="col-lg-4 col-md-6">
+          <div
+            data-aos="fade-up-left"
+            data-aos-delay="400"
+            class="service-item"
+          >
+            <div
+              data-aos="fade-up-left"
+              data-aos-delay="700"
+              class="service-img"
+            >
+              <div data-aos="fade-up-left" data-aos-delay="800" class="circle">
                 Oferta <br />
                 5$
               </div>
-              <img src="Images/promo3.jpg" alt="Image" />
+              <img
+                data-aos="fade-up-left"
+                data-aos-delay="900"
+                src="Images/promo3.jpg"
+                alt="Image"
+              />
             </div>
-            <div class="textContainer">
-              <h3>UVAS</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <a class="btn" href="">Shop Now</a>
+            <div
+              data-aos="fade-up-left"
+              data-aos-delay="800"
+              class="textContainer"
+            >
+              <h3 data-aos="fade-up-left" data-aos-delay="700">Uvas</h3>
+              <p data-aos="fade-up-left" data-aos-delay="800">
+                Lorem ipsum dolor sit amet.
+              </p>
+              <a
+                data-aos="fade-up-left"
+                data-aos-delay="900"
+                class="btn"
+                href=""
+                >Shop Now</a
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Products -->
+    <div class="title">
+      <h1 class="text-center">Productos</h1>
+      <h5 class="text-center mb-4">
+        Seleccione entre las marcas de productos premium y ahorre mucho dinero
+      </h5>
+    </div>
+    <section class="section products">
+      <div class="product-layout">
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-9.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-1.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+              <span class="cancel">$160</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-2.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-4.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+              <span class="cancel">$160</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-5.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-6.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+
+            <div class="price">
+              <span>$150</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-7.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+
+            <div class="price">
+              <span>$150</span>
+              <span class="cancel">$160</span>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="400" class="product">
+          <div class="img-container">
+            <img src="./images/product-8.jpg" alt="" />
+            <div class="addCart">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <p>Bambi Print Mini Backpack</p>
+            <div class="price">
+              <span>$150</span>
+              <span class="cancel">$160</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
@@ -239,7 +438,10 @@
     ></script>
     <!-- Swiper js -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Carpet js -->
     <script src="Js/Slider.js"></script>
+    <script src="Js/Data-Aos.js"></script>
   </body>
 </html>

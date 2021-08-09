@@ -68,12 +68,12 @@
 .textContainer {
   padding: 0 3rem;
   clip-path: polygon(15% 0, 85% 0, 99% 100%, 0% 100%);
-  background: #bbce69;
+  background: #ffffff;
 }
 
 .service .service-item h3 {
   font-family: "Roboto Slab", serif;
-  color: #ffffff;
+  color: #bbce69;
   margin: 0;
   font-size: 25px;
   border-radius: 5rem;
@@ -85,7 +85,7 @@
   margin: 0;
   padding: 0 25px 16px 25px;
   font-size: 14px;
-  color: #ffffff;
+  color: #bbce69;
 }
 
 .service .service-item a.btn {
