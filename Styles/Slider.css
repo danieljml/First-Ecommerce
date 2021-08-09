@@ -6,6 +6,7 @@ body {
 }
 .hero {
   margin-top: -22px;
+  width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;
@@ -20,14 +21,12 @@ body {
 }
 
 .hero .row {
-  position: relative;
+  position: absolute;
 }
 
 .hero .row img {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
   object-fit: cover;
 }
 
@@ -149,16 +148,18 @@ body {
   .hero .row img {
     width: 100vw;
     height: 100%;
-    margin: 0;
-    padding: 0;
+
     object-fit: cover;
   }
   .hero {
-    margin-top: -22px;
+    width: 100vw;
   }
+
   .hero .row .content {
-    margin-top: -8rem;
+    position: absolute;
+    top: 40%;
   }
+
   .hero .row .content h1 {
     font-size: 3rem;
   }

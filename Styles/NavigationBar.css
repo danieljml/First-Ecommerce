@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
-
-a {
-  text-decoration: none;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-toggler-icon {
@@ -14,7 +17,7 @@ a {
 }
 
 .navbar-brand .logo {
-  width: 7.5rem;
+  width: 5.5rem;
 }
 
 .nav-item {

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.hero-text {
+  font-family: "Roboto Slab", serif;
+}
+
+.service {
+  margin-top: 2.7rem;
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.services-images {
+  margin-top: 2rem !important;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  background: #f2f2f2;
+}
+
+.service .circle {
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  position: absolute;
+  padding-top: 1rem;
+  z-index: 100;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #bcce69a4;
+  color: #ffffff;
+  border: 1px dashed #ffffff;
+}
+
+.service .service-img {
+  position: relative;
+  width: 100%;
+}
+
+.service .service-img img {
+  position: relative;
+  padding: 1rem;
+  margin: 2rem 0;
+  width: 91.5%;
+  height: 91.5%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.service .service-img::after {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: 80px;
+  bottom: 15px;
+  left: 80px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  z-index: 1;
+}
+
+.textContainer {
+  padding: 0 3rem;
+  clip-path: polygon(15% 0, 85% 0, 99% 100%, 0% 100%);
+  background: #bbce69;
+}
+
+.service .service-item h3 {
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  margin: 0;
+  font-size: 25px;
+  border-radius: 5rem;
+  padding: 0.7rem 1rem;
+}
+
+.service .service-item p {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0 25px 16px 25px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.service .service-item a.btn {
+  font-family: "Roboto Slab", serif;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #bbce69;
+  border: 1px solid #bbce69;
+  border-radius: 5px;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.service .service-item a.btn:hover {
+  color: #ffffff !important;
+  background: #a3a847 !important;
+}
