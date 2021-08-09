@@ -156,6 +156,9 @@ body {
   .hero {
     margin-top: -22px;
   }
+  .hero .row .content {
+    margin-top: -1rem;
+  }
   .hero .row .content h1 {
     margin-top: -4remx;
     font-size: 3rem;
