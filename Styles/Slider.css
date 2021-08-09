@@ -55,7 +55,7 @@ body {
   width: 70%;
 }
 
-.hero .row .content a {
+.hero .row .content .btn {
   font-family: "Roboto Slab", serif;
   display: inline-block;
   color: rgb(255, 255, 255);
@@ -63,6 +63,11 @@ body {
   border-radius: 5px;
   padding: 1rem 2.5rem;
   margin-top: 2rem;
+}
+
+.hero .row .content .btn:hover {
+  color: #ffffff;
+  background: #a3a847;
 }
 
 .swiper-slide-active .content h1 {
