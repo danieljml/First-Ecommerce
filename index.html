@@ -38,7 +38,7 @@
   <body>
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid navigationBar">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="Index.html"
           ><img
             class="logo"
             src="./Images/First-Ecommerce.png"
@@ -86,16 +86,17 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Compra</a>
+              <a class="nav-link" href="Cart.html">Compra</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
           <div class="NavbarIcons">
-            <a href="" class="cart-icon">
-              <i class="fas fa-shopping-bag"></i
-            ></a>
+            <a href="Cart.html" class="cart-icon">
+              <i class="fas fa-shopping-bag"> <small class="count">0</small></i>
+            </a>
+
             <a href="" class="search-icon"> <i class="fas fa-search"></i></a>
           </div>
         </div>
@@ -157,8 +158,7 @@
           </div>
         </div>
       </div>
-
-      <!-- Offerts  -->
+      <!-- Carousel Navigation -->
       <div class="arrows d-flex">
         <div class="swiper-prev d-flex">
           <i class="bx bx-chevrons-left swiper-icon"></i>
@@ -168,125 +168,104 @@
         </div>
       </div>
     </div>
-    <div class="service container">
-      <div class="section-header text-center hero-text">
-        <h1 class="hero-text">Destacados</h1>
-      </div>
-      <div class="row services-images">
-        <div data-aos="fade-up-right" class="col-lg-4 col-md-6">
-          <div
-            data-aos="fade-up-right"
-            data-aos-delay="400"
-            class="service-item"
-          >
-            <div
-              data-aos="fade-up-right"
-              data-aos-delay="700"
-              class="service-img"
-            >
-              <div data-aos="fade-up-right" data-aos-delay="800" class="circle">
-                Oferta <br />
-                6$
-              </div>
-              <img
-                data-aos="fade-up-right"
-                data-aos-delay="900"
-                src="./Images/promo1.jpg"
-                alt="Image"
-              />
-            </div>
-            <div
-              data-aos="fade-up-right"
-              data-aos-delay="800"
-              class="textContainer"
-            >
-              <h3 data-aos="fade-up-right" data-aos-delay="700">Jugos</h3>
-              <p data-aos="fade-up-right" data-aos-delay="800">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <a
-                data-aos="fade-up-right"
-                data-aos-delay="900"
-                class="btn"
-                href=""
-                >Shop Now</a
-              >
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-up" class="col-lg-4 col-md-6">
-          <div data-aos="fade-up" data-aos-delay="400" class="service-item">
-            <div data-aos="fade-up" data-aos-delay="700" class="service-img">
-              <div data-aos="fade-up" data-aos-delay="800" class="circle">
-                Oferta <br />
-                3$
-              </div>
-              <img
-                data-aos="fade-up"
-                data-aos-delay="900"
-                src="./Images/promo2.jpg"
-                alt="Image"
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="800" class="textContainer">
-              <h3 data-aos="fade-up" data-aos-delay="700">Mangos</h3>
-              <p data-aos="fade-up" data-aos-delay="800">
-                Lorem ipsum dolor sit amet.
-              </p>
 
-              <a data-aos="fade-up" data-aos-delay="900" class="btn" href=""
-                >Shop Now</a
-              >
+    <!--  Offerts -->
+    <div class="title">
+      <h1 class="text-center">Destacados</h1>
+      <h5 class="text-center">
+    <div class="container">
+      <div class="row offerts">
+        <div class="product-card col-lg-5 col-sm-12">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="Images/promo3.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">MTZ STORE</span>
+            <h4><a >Cereza</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+              possimus nostrum!
+            </p>
+            <div class="product-bottom-details">
+              <div class="product-price">$3<small class="cancel">$5</small></div>
+              <div class="product-links">
+               
+                <a class="addCart"><i class="fa fa-shopping-cart"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <div data-aos="fade-up-left" class="col-lg-4 col-md-6">
-          <div
-            data-aos="fade-up-left"
-            data-aos-delay="400"
-            class="service-item"
-          >
-            <div
-              data-aos="fade-up-left"
-              data-aos-delay="700"
-              class="service-img"
-            >
-              <div data-aos="fade-up-left" data-aos-delay="800" class="circle">
-                Oferta <br />
-                5$
+        <div class="product-card col-lg-5 col-sm-12">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="Images/promo4.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">MTZ STORE</span>
+            <h4><a >Uva</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+              possimus nostrum!
+            </p>
+            <div class="product-bottom-details">
+              <div class="product-price">$3<small class="cancel">$5</small></div>
+              <div class="product-links">
+                
+                <a class="addCart"><i class="fa fa-shopping-cart"></i></a>
               </div>
-              <img
-                data-aos="fade-up-left"
-                data-aos-delay="900"
-                src="Images/promo3.jpg"
-                alt="Image"
-              />
             </div>
-            <div
-              data-aos="fade-up-left"
-              data-aos-delay="800"
-              class="textContainer"
-            >
-              <h3 data-aos="fade-up-left" data-aos-delay="700">Uvas</h3>
-              <p data-aos="fade-up-left" data-aos-delay="800">
-                Lorem ipsum dolor sit amet.
-              </p>
-              <a
-                data-aos="fade-up-left"
-                data-aos-delay="900"
-                class="btn"
-                href=""
-                >Shop Now</a
-              >
+          </div>
+        </div>
+        <div class="product-card col-lg-5 col-sm-12">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="Images/promo5.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">MTZ STORE</span>
+            <h4><a>Naranja</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+              possimus nostrum!
+            </p>
+            <div class="product-bottom-details">
+              <div class="product-price">$3<small class="cancel">$5</small></div>
+              <div class="product-links">
+                
+                <a class="addCart"><i class="fa fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-card col-lg-5 col-sm-12">
+          <div class="badge">Hot</div>
+          <div class="product-tumb">
+            <img src="Images/promo6.jpg" alt="" />
+          </div>
+          <div class="product-details">
+            <span class="product-catagory">MTZ STORE</span>
+            <h4><a>Piña</a></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,
+              possimus nostrum!
+            </p>
+            <div class="product-bottom-details">
+              <div class="product-price">$3<small class="cancel">$5</small></div>
+              <div class="product-links">
+                
+                <a class="addCart"><i class="fa fa-shopping-cart"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Products -->
-    <div class="title">
+    <div class="title mt-3">
       <h1 class="text-center">Productos</h1>
-      <h5 class="text-center mb-4">
+      <h5 class="text-center mb-5">
         Seleccione entre las marcas de productos premium y ahorre mucho dinero
       </h5>
     </div>
@@ -300,9 +279,9 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Tomate</p>
             <div class="price">
-              <span>$150</span>
+              <span>$5</span>
             </div>
           </div>
         </div>
@@ -315,10 +294,10 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Mango</p>
             <div class="price">
-              <span>$150</span>
-              <span class="cancel">$160</span>
+              <span>$5</span>
+              <span class="cancel">$6</span>
             </div>
           </div>
         </div>
@@ -331,9 +310,9 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Lechuga</p>
             <div class="price">
-              <span>$150</span>
+              <span>$5</span>
             </div>
           </div>
         </div>
@@ -346,9 +325,9 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Pepino</p>
             <div class="price">
-              <span>$150</span>
+              <span>$5</span>
               <span class="cancel">$160</span>
             </div>
           </div>
@@ -362,9 +341,9 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Champiñones</p>
             <div class="price">
-              <span>$150</span>
+              <span>$5</span>
             </div>
           </div>
         </div>
@@ -377,10 +356,10 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Melon</p>
 
             <div class="price">
-              <span>$150</span>
+              <span>$5</span>
             </div>
           </div>
         </div>
@@ -393,11 +372,11 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Papa</p>
 
             <div class="price">
-              <span>$150</span>
-              <span class="cancel">$160</span>
+              <span>$5</span>
+              <span class="cancel">$6</span>
             </div>
           </div>
         </div>
@@ -410,10 +389,10 @@
             </div>
           </div>
           <div class="bottom">
-            <p>Bambi Print Mini Backpack</p>
+            <p class="title-product">Espinaca</p>
             <div class="price">
-              <span>$150</span>
-              <span class="cancel">$160</span>
+              <span>$5</span>
+              <span class="cancel">$6</span>
             </div>
           </div>
         </div>
@@ -421,6 +400,7 @@
     </section>
 
     <!-- Bootstrap JavaScript Libraries -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -443,5 +423,6 @@
     <!-- Carpet js -->
     <script src="Js/Slider.js"></script>
     <script src="Js/Data-Aos.js"></script>
+    <script src="Js/Cart.js"></script>
   </body>
 </html>

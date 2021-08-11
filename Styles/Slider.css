@@ -10,23 +10,19 @@ a {
 }
 
 .hero {
-  margin-top: -22px;
-  width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background-color: #f2f2f2;
 }
 
-.swiper-slide,
 .swiper-container,
 .hero .row {
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
 .hero .row {
-  position: absolute;
+  position: relative;
 }
 
 .hero .row img {
@@ -158,18 +154,15 @@ a {
   .hero .row img {
     width: 100vw;
     height: 100%;
-
     object-fit: cover;
   }
   .hero {
     width: 100vw;
   }
-
   .hero .row .content {
     position: absolute;
     top: 40%;
   }
-
   .hero .row .content h1 {
     font-size: 3rem;
   }
