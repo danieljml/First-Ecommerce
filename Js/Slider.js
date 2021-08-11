@@ -12,12 +12,21 @@ const swiper1 = new Swiper(".slider-1", {
   },
 });
 
-var swiper2 = new Swiper(".slider-2", {
-  slidesPerView: 3,
+const swiper3 = new Swiper(".slider-3", {
+  loop: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
   spaceBetween: 30,
-  freeMode: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  slidesPerView: 2,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 5,
+    },
   },
 });
