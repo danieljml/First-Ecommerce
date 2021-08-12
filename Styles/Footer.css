@@ -100,7 +100,7 @@
 }
 
 .dk-footer {
-  padding: 75px 0 0;
+  margin-top: 0.5rem;
   background-color: #f2f2f2;
   position: relative;
   z-index: 2;
@@ -115,7 +115,7 @@
   margin-left: 50px;
 }
 .dk-footer .contact-us.contact-us-last {
-  margin-left: -80px;
+  margin-left: 0;
 }
 .dk-footer .contact-icon i {
   font-size: 24px;
@@ -126,7 +126,6 @@
 
 .dk-footer-box-info {
   top: 0;
-  background: #b6c867;
   z-index: 2;
   padding: 2rem;
   display: flex;
@@ -134,7 +133,7 @@
   align-items: center;
 }
 .dk-footer-box-info .footer-social-link h3 {
-  color: #fff;
+  color: #363636;
   font-size: 24px;
   margin-bottom: 25px;
 }
@@ -185,15 +184,14 @@
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -moz-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  justify-content: center;
 }
 .footer-awarad p {
   color: #b6c867;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   margin-left: 20px;
   padding-top: 15px;
 }
@@ -331,7 +329,7 @@
 }
 .contact-info h3 {
   font-size: 20px;
-  color: #878787;
+  color: #363636;
   margin-bottom: 0;
 }
 
@@ -381,8 +379,12 @@
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
+.back-to-top i {
+  color: #fff;
+}
+
 .back-to-top .btn-dark:hover {
   cursor: pointer;
-  background: #fa6742;
-  border-color: #fa6742;
+  background: #a3a847;
+  border-color: #fff;
 }
