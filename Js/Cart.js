@@ -4,14 +4,15 @@ let products = [
   { name: "uva", tag: "", price: 4 },
   { name: "naranja", tag: "", price: 4 },
   { name: "piña", tag: "", price: 4 },
-  { name: "tomate", tag: "", price: 4 },
-  { name: "mango", tag: "", price: 2 },
-  { name: "lechuga", tag: "", price: 3 },
+  { name: "Mango", tag: "", price: 4 },
+  { name: "Lechuga", tag: "", price: 2 },
+  { name: "Kiwi", tag: "", price: 3 },
   { name: "pepino", tag: "", price: 4 },
   { name: "champiñones", tag: "", price: 5 },
   { name: "melon", tag: "", price: 3 },
   { name: "papa", tag: "", price: 6 },
   { name: "espinaca", tag: "", price: 4 },
+  { name: "tomate", tag: "", price: 4 },
 ];
 
 for (let i = 0; i < carts.length; i++) {

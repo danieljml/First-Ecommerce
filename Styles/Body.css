@@ -36,3 +36,8 @@ i {
 i:hover {
   cursor: pointer;
 }
+
+#destacados,
+#productos {
+  margin-bottom: 5rem;
+}
