@@ -108,7 +108,7 @@
 }
 .dk-footer .contact-us {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
   padding-left: 80px;
 }
 .dk-footer .contact-us .contact-info {
@@ -202,11 +202,19 @@
 }
 
 .footer-left-widget {
-  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-widget .section-heading {
-  margin-bottom: 35px;
+  margin-bottom: 0;
 }
 
 .footer-widget h3 {
@@ -224,7 +232,7 @@
   float: left;
   list-style: none;
   margin: 0;
-  padding: 0;
+  margin-bottom: 1rem;
 }
 
 .footer-widget li {

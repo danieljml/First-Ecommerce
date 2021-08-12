@@ -1,14 +1,15 @@
 .offerts {
   display: flex;
   justify-content: center;
+  padding: 0 2rem;
 }
 
 .offerts .product-card {
   position: relative;
   box-shadow: 0 2px 7px #d1d1d1;
-  background: #f2f2f2;
+  background: #ffffff;
   margin: 0.5rem 1rem;
-  padding: 0 2.5rem;
+  padding: 0 1rem;
   border-radius: 10px;
   width: 400px;
 }
@@ -29,7 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 .offerts .product-tumb img {
@@ -38,7 +39,7 @@
 }
 
 .offerts .product-details {
-  padding: 30px;
+  padding: 1rem;
 }
 
 .offerts .product-catagory {
